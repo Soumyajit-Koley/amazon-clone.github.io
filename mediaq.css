@@ -191,7 +191,7 @@
     }
 }
 
-@media (min-width:771px) and (max-width:1007px) {
+@media (min-width:771px) and (max-width:1024px) {
 
     /* mobile utility start */
     .m-flex {
@@ -339,7 +339,7 @@
     }
 }
 
-@media (min-width:1008px) {
+@media (min-width:1025px) {
 
     /* mobile utility start */
 
