@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon India</title>
+
+    <!-- style link -->
+
+    <link rel="stylesheet" href="nav-style.css">
+    <link rel="stylesheet" href="main-body-style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="footer-style.css">
+    <link rel="stylesheet" href="mediaq.css">
+
+    <!-- Icons link -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+    <!-- This is my first project in html and css , I have started this project on 14th july 2023 and ended on
+    This is a clone base project basically it's the clone of amazon.com website. -->
+
+    <!-- header start -->
+
+    <header>
+
+        <!-- nav-belt start  -->
+
+        <div class="nav-belt">
+            <div class="mb-bar">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="nav-logo-outer">
+                <div class="nav-logo border nbheight">
+                    <a href="https://www.amazon.com/"><img src="./images/logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="nav-location">
+                <div class="add border nbheight pointer">
+                    <p class="address">Deliver to</p>
+                    <div class="country-icon">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <p class="country"> India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="navsearch">
+                <select name="search" id="sbar" class="search-select">
+                    <option value="">All</option>
+                    <option value="search-alias=automotive-intl-ship">Automotive</option>
+                    <option value="search-alias=arts-crafts-intl-ship">Arts &amp; Crafts</option>
+                    <option selected="selected" value="search-alias=aps">All Departments</option>
+                    <option value="search-alias=baby-products-intl-ship">Baby</option>
+                    <option value="search-alias=beauty-intl-ship">Beauty &amp; Personal Care</option>
+                    <option value="search-alias=stripbooks-intl-ship">Books</option>
+                    <option value="search-alias=fashion-boys-intl-ship">Boys' Fashion</option>
+                    <option value="search-alias=computers-intl-ship">Computers</option>
+                    <option value="search-alias=deals-intl-ship">Deals</option>
+                    <option value="search-alias=digital-music">Digital Music</option>
+                    <option value="search-alias=electronics-intl-ship">Electronics</option>
+                    <option value="search-alias=fashion-girls-intl-ship">Girls' Fashion</option>
+                    <option value="search-alias=hpc-intl-ship">Health &amp; Household</option>
+                    <option value="search-alias=kitchen-intl-ship">Home &amp; Kitchen</option>
+                    <option value="search-alias=industrial-intl-ship">Industrial &amp; Scientific</option>
+                    <option value="search-alias=digital-text">Kindle Store</option>
+                    <option value="search-alias=luggage-intl-ship">Luggage</option>
+                    <option value="search-alias=fashion-mens-intl-ship">Men's Fashion</option>
+                    <option value="search-alias=movies-tv-intl-ship">Movies &amp; TV</option>
+                    <option value="search-alias=music-intl-ship">Music, CDs &amp; Vinyl</option>
+                    <option value="search-alias=pets-intl-ship">Pet Supplies</option>
+                    <option value="search-alias=instant-video">Prime Video</option>
+                    <option value="search-alias=software-intl-ship">Software</option>
+                    <option value="search-alias=sporting-intl-ship">Sports &amp; Outdoors</option>
+                    <option value="search-alias=tools-intl-ship">Tools &amp; Home Improvement</option>
+                    <option value="search-alias=toys-and-games-intl-ship">Toys &amp; Games</option>
+                    <option value="search-alias=videogames-intl-ship">Video Games</option>
+                    <option value="search-alias=fashion-womens-intl-ship">Women's Fashion</option>
+                </select>
+                <input type="text" placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="language border pointer">
+                <div class="tb-lang-icon"></div>
+                <div class="lan-icon tb-none">
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <div class="lan-selector">
+                    <p>EN</p>
+                </div>
+            </div>
+            <div class="nav-signin border  pointer">
+                <p><span class="box-top">Hello, sign in</span></p>
+                <p class="box-bottom">Account & Lists</p>
+            </div>
+            <div class="nav-return border pointer">
+                <p><span class="box-top">Returns</span></p>
+                <p class="box-bottom">& Orders</p>
+            </div>
+            <div class="cart border pointer ">
+                <div class="cart-icon">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <p class="cart-text tb-none">Cart</p>
+            </div>
+        </div>
+        <!-- search bar for mobiles -->
+        <div class="m-flex">
+            <div class="navsearch-mobile">
+                <input type="text" placeholder="Search Amazon" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- nav-belt end  -->
+
+        <!-- panel start -->
+
+        <div class="panel pointer mb-none">
+            <div class="menu-option border mb-none">
+                <div class="menu ">
+                    <i class="fa-solid fa-bars"></i>
+                    <p>All</p>
+                </div>
+            </div>
+            <div class="panel-options">
+                <div class="options">
+                    <a href="https://www.amazon.com/gp/goldbox?ref_=nav_cs_gb" class="wtdn">
+                        <p class="border  white-text">Today's Deals</p>
+                    </a>
+                    <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice"
+                        class="wtdn">
+                        <p class="border white-text">Customer Service</p>
+                    </a>
+                    <a href="https://www.amazon.com/registries?ref_=nav_cs_registry&ref_=nav_cs_registry" class="wtdn">
+                        <p class="border white-text">Registry</p>
+                    </a>
+                    <a href="https://www.amazon.com/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc" class="wtdn">
+                        <p class="border white-text">Gift Cards</p>
+                    </a>
+                    <a href="https://www.amazon.com/b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell"
+                        class="wtdn">
+                        <p class="border white-text">Sell</p>
+                    </a>
+                </div>
+                <div class="deals"></div>
+            </div>
+        </div>
+        <div class="panel pointer mb-width mb-panel-flex">
+            <div class="menu-option border mb-none">
+                <div class="menu ">
+                    <i class="fa-solid fa-bars"></i>
+                    <p>All</p>
+                </div>
+            </div>
+            <div class="panel-options mb-width">
+                <div class="options mb-width">
+                    <a href="https://www.amazon.com/gp/goldbox?ref_=nav_cs_gb" class="wtdn">
+                        <p class="border  white-text">Today's Deals</p>
+                    </a>
+                    <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice"
+                        class="wtdn">
+                        <p class="border white-text">Customer Service</p>
+                    </a>
+                    <a href="https://www.amazon.com/registries?ref_=nav_cs_registry&ref_=nav_cs_registry" class="wtdn">
+                        <p class="border white-text">Registry</p>
+                    </a>
+                    <a href="https://www.amazon.com/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc" class="wtdn">
+                        <p class="border white-text">Gift Cards</p>
+                    </a>
+                    <a href="https://www.amazon.com/b/?_encoding=UTF8&ld=AZUSSOA-sell&node=12766669011&ref_=nav_cs_sell"
+                        class="wtdn">
+                        <p class="border white-text">Sell</p>
+                    </a>
+                </div>
+                <div class="deals"></div>
+            </div>
+        </div>
+        <!-- panel end -->
+    </header>
+
+    <!-- header end -->
+
+    <!-- main start -->
+
+    <main>
+
+        <!-- top main start -->
+
+        <div class="main-top pointer">
+            <div id="main-container">
+                <div class="main-float ">
+                    <span style="cursor: text;" class="tb-main-float">
+                        You are on amazon.com. You can also shop on Amazon India for millions of products with fast
+                        local delivery.
+                    </span>
+                    <pre> </pre>
+                    <a class="amazon-link tb-main-float" target="_blank" rel="noopener" href="https://www.amazon.in/">Click here to go
+                        to amazon.in</a>
+                    </div>
+                </div>
+            </div>
+            <a class="amazon-link" target="_blank" rel="noopener" href="https://www.amazon.in/"><div class="main-float-mobile"></div></a>
+
+
+        <!-- top main end -->
+
+        <!-- main cards start -->
+
+        <div class="main-cards mb-none">
+            <div class="main-containt">
+                <div class="box1 main-box mb-none">
+                    <h2 class="cards-heading">Women Health</h2>
+                    <a href="https://www.amazon.com/s? mb-nonei=specialty-aps&bbn=16225006011&rh=n%3A%2116225006011%2Cn%3A3777891&ref=nav_em__nav_desktop_sa_intl_personal_care_0_2_11_9&pf_rd_r=RY6K4GXS94ZPGKPT0AEM&pf_rd_p=eab778f7-37cf-4c6b-9552-5370900592a9&pd_rd_r=7afd5556-f0be-4037-b9c1-d1071da7635f&pd_rd_w=aFLHs&pd_rd_wg=0ScYk&ref_=pd_gw_unk"
+                        class="main-cards-link">
+                        <div class="main-pic mb-none"
+                            style="background-image: url('./images/main-box-image/women-health.jpg');"></div>
+                        <p class="main-bottom">See more</p>
+                    </a>
+                </div>
+
+                <div class="box2 main-box mb-none">
+                    <h2 class="cards-heading">Electronics</h2>
+                    <a href="https://www.amazon.com/b?node=16225009011&pf_rd_r=RY6K4GXS94ZPGKPT0AEM&pf_rd_p=5232c45b-5929-4ff0-8eae-5f67afd5c3dc&pd_rd_r=7afd5556-f0be-4037-b9c1-d1071da7635f&pd_rd_w=tT2vS&pd_rd_wg=0ScYk&ref_=pd_gw_unk"
+                        class="main-cards-link">
+                        <div class="main-pic mb-none" style="background-image: url('./images/main-box-image/laptops.jpg');">
+                        </div>
+                        <p class="main-bottom">See more</p>
+                    </a>
+                </div>
+                <div class="box3 main-box mb-none">
+                    <h2 class="cards-heading">Clothes</h2>
+                    <a
+                        href="https://www.amazon.com/s?k=spring+fashion+trends&crid=27JAPFCJF50YO&sprefix=spring+fashion+trends%2Caps%2C174&ref=nb_sb_noss_1&pf_rd_r=BB65TD0BMK01KR583J1Q&pf_rd_p=b14a5e39-de66-4033-bb36-c04fed7f5597&pd_rd_r=fecdac37-2fe0-4dc2-ace5-9667fb9e2a21&pd_rd_w=UNjrp&pd_rd_wg=fIgAK&ref_=pd_gw_unk">
+                        <div class="main-pic mb-none" style="background-image: url('./images/main-box-image/mp_20230219_ff_desktopsinglecategory_desktop_379x304_1._SY304_CB612639047_.jpg');">
+                        </div>
+                        <p class="main-bottom">See more</p>
+                    </a>
+                </div>
+                <div class="box4 main-box mb-none">
+                    <h2 class="cards-heading">Beauty Picks</h2>
+                    <a href="https://www.amazon.com/b/?node=16225006011&pf_rd_r=BB65TD0BMK01KR583J1Q&pf_rd_p=4a5ac24a-2f14-4296-8a03-0c034c0a7904&pd_rd_r=20f87576-89b9-4610-9f5a-6cdeaaf93344&pd_rd_w=Luyhi&pd_rd_wg=JMHZY&ref_=pd_gw_unk"
+                        class="main-cards-link">
+                        <div class="main-pic mb-none" style="background-image: url('./images/main-box-image/beauty.jpg');">
+                        </div>
+                        <p class="main-bottom">See more</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+<!-- main-cards for mobiles -->
+
+<div class="mb-main-cards">
+    <div class="main-cards">
+        <div class="main-containt">
+            <div class="mb-box1 main-box">
+                <h4 class="cards-heading">Women Health</h4>
+                <a href="https://www.amazon.com/s?i=specialty-aps&bbn=16225006011&rh=n%3A%2116225006011%2Cn%3A3777891&ref=nav_em__nav_desktop_sa_intl_personal_care_0_2_11_9&pf_rd_r=RY6K4GXS94ZPGKPT0AEM&pf_rd_p=eab778f7-37cf-4c6b-9552-5370900592a9&pd_rd_r=7afd5556-f0be-4037-b9c1-d1071da7635f&pd_rd_w=aFLHs&pd_rd_wg=0ScYk&ref_=pd_gw_unk"
+                    class="main-cards-link">
+                    <div class="main-pic pic-1"></div>
+                    <p class="main-bottom">See more</p>
+                </a>
+            </div>
+
+            <div class="mb-box2 main-box">
+                <h4 class="cards-heading">Electronics</h4>
+                <a href="https://www.amazon.com/b?node=16225009011&pf_rd_r=RY6K4GXS94ZPGKPT0AEM&pf_rd_p=5232c45b-5929-4ff0-8eae-5f67afd5c3dc&pd_rd_r=7afd5556-f0be-4037-b9c1-d1071da7635f&pd_rd_w=tT2vS&pd_rd_wg=0ScYk&ref_=pd_gw_unk"
+                    class="main-cards-link">
+                    <div class="main-pic pic-2" >
+                    </div>
+                    <p class="main-bottom">See more</p>
+                </a>
+            </div>
+            <div class="mb-box3 main-box">
+                <h4 class="cards-heading">Clothes</h4>
+                <a
+                    href="https://www.amazon.com/s?k=spring+fashion+trends&crid=27JAPFCJF50YO&sprefix=spring+fashion+trends%2Caps%2C174&ref=nb_sb_noss_1&pf_rd_r=BB65TD0BMK01KR583J1Q&pf_rd_p=b14a5e39-de66-4033-bb36-c04fed7f5597&pd_rd_r=fecdac37-2fe0-4dc2-ace5-9667fb9e2a21&pd_rd_w=UNjrp&pd_rd_wg=fIgAK&ref_=pd_gw_unk">
+                    <div class="main-pic pic-3">
+                    </div>
+                    <p class="main-bottom">See more</p>
+                </a>
+            </div>
+            <div class="mb-box4 main-box">
+                <h4 class="cards-heading">Beauty Picks</h4>
+                <a href="https://www.amazon.com/b/?node=16225006011&pf_rd_r=BB65TD0BMK01KR583J1Q&pf_rd_p=4a5ac24a-2f14-4296-8a03-0c034c0a7904&pd_rd_r=20f87576-89b9-4610-9f5a-6cdeaaf93344&pd_rd_w=Luyhi&pd_rd_wg=JMHZY&ref_=pd_gw_unk"
+                    class="main-cards-link">
+                    <div class="main-pic pic-4">
+                    </div>
+                    <p class="main-bottom">See more</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+
+        <!-- main cards end -->
+
+        <!-- main body sign in belt start -->
+
+        <div class="main-belt">
+            <div class="main-belt-containt">
+                <div class="mbt" style="font-size: 13px;">
+                    See personalized recommendations
+                </div>
+                <div class="sbtn pointer">
+                    <a href="https://www.amazon.com/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fref%3Drhf_sign_in&openid.assoc_handle=usflex&openid.pape.max_auth_age=0"
+                        target="_blank" rel="noopener noreferrer"><button type="button" class="sgnb">Sign
+                            in</button></a>
+                </div>
+                <div class="reg" style="font-size: 11px;">
+                    <span>New customer?</span><a
+                        href="https://www.amazon.com/ap/register?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fref%3Drhf_sign_in&openid.assoc_handle=usflex"
+                        target="_blank" rel="noopener noreferrer">Start here</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- main body sign in belt end -->
+
+    </main>
+
+
+    <!-- main end -->
+
+    <!-- footer start -->
+
+    <footer>
+
+        <!-- foot panel-1 start -->
+
+        <div class="foot-panel1">
+            <span>
+                Back to top
+            </span>
+        </div>
+
+        <!-- foot panel-1 end -->
+
+        <!-- foot panel-2 start -->
+
+        <div class="foot-panel2 mb-none">
+            <div class="row1 nosty">
+                <p>Get to Know Us</p>
+                <ul>
+                    <li>
+                        <a href="https://www.amazon.jobs" class="nav_a">Careers</a>
+                    </li>
+                    <li>
+                        <a href="https://blog.aboutamazon.com/?utm_source=gateway&amp;utm_medium=footer"
+                            class="nav_a">Blog</a>
+                    </li>
+                    <li>
+                        <a href="https://www.aboutamazon.com/?utm_source=gateway&amp;utm_medium=footer"
+                            class="nav_a">About Amazon</a>
+                    </li>
+                    <li>
+                        <a href="https://www.amazon.com/ir" class="nav_a">Investor Relations</a>
+                    </li>
+                    <li>
+                        <a href="/gp/browse.html?node=2102313011&amp;ref_=footer_devices" class="nav_a">Amazon
+                            Devices</a>
+                    </li>
+                    <li>
+                        <a href="https://www.amazon.science" class="nav_a">Amazon Science</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row2 nosty">
+                <p>Make Money with Us</p>
+                <ul>
+                    <li>
+                        <a href="https://services.amazon.com/sell.html?ld=AZFSSOA&amp;ref_=footer_soa"
+                            class="nav_a">Sell products on Amazon</a>
+                    </li>
+                    <li>
+                        <a href="https://services.amazon.com/amazon-business.html?ld=usb2bunifooter&amp;ref_=footer_b2b"
+                            class="nav_a">Sell on Amazon Business</a>
+                    </li>
+                    <li>
+                        <a href="https://developer.amazon.com" class="nav_a">Sell apps on Amazon</a>
+                    </li>
+                    <li><a href="https://affiliate-program.amazon.com/" class="nav_a">Become an Affiliate</a></li>
+                    <li>
+                        <a href="https://advertising.amazon.com/?ref=ext_amzn_ftr" class="nav_a">Advertise Your
+                            Products</a>
+                    </li>
+                    <li>
+                        <a href="/gp/seller-account/mm-summary-page.html?ld=AZFooterSelfPublish&amp;topic=200260520&amp;ref_=footer_publishing"
+                            class="nav_a">Self-Publish with Us</a>
+                    </li>
+                    <li>
+                        <a href="https://go.thehub-amazon.com/amazon-hub-locker" class="nav_a">Host an Amazon Hub</a>
+                    </li>
+                    <li>
+                        <a href="/b/?node=18190131011&amp;ld=AZUSSOA-seemore&amp;ref_=footer_seemore" class="nav_a">See
+                            More Make Money with Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row3 nosty">
+                <p>Amazon Payment Products</p>
+                <ul>
+                    <li>
+                        <a href="/dp/B07984JN3L?plattr=ACOMFO&amp;ie=UTF-8" class="nav_a">Amazon Business Card</a>
+                    </li>
+                    <li>
+                        <a href="/gp/browse.html?node=16218619011&amp;ref_=footer_swp" class="nav_a">Shop with
+                            Points</a>
+                    </li>
+                    <li>
+                        <a href="/gp/browse.html?node=10232440011&amp;ref_=footer_reload_us" class="nav_a">Reload Your
+                            Balance</a>
+                    </li>
+                    <li>
+                        <a href="/gp/browse.html?node=388305011&amp;ref_=footer_tfx" class="nav_a">Amazon Currency
+                            Converter</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row4 nosty">
+                <p>
+                    Let Us Help You</p>
+                <ul>
+                    <li>
+                        <a href="/gp/help/customer/display.html?nodeId=GDFU3JS5AL6SYHRD&amp;ref_=footer_covid"
+                            class="nav_a">Amazon and COVID-19</a>
+                    </li>
+                    <li>
+                        <a href="https://www.amazon.com/gp/css/homepage.html?ref_=footer_ya" class="nav_a">Your
+                            Account</a>
+                    </li>
+                    <li>
+                        <a href="https://www.amazon.com/gp/css/order-history?ref_=footer_yo" class="nav_a">Your
+                            Orders</a>
+                    </li>
+                    <li>
+                        <a href="/gp/help/customer/display.html?nodeId=468520&amp;ref_=footer_shiprates"
+                            class="nav_a">Shipping Rates &amp; Policies</a>
+                    </li>
+                    <li>
+                        <a href="/gp/css/returns/homepage.html?ref_=footer_hy_f_4" class="nav_a">Returns &amp;
+                            Replacements</a>
+                    </li>
+                    <li>
+                        <a href="/gp/digital/fiona/manage?ref_=footer_myk" class="nav_a">Manage Your Content and
+                            Devices</a>
+                    </li>
+                    <li>
+                        <a href="/gp/BIT/ref=footer_bit_v2_us_A0029?bitCampaignCode=A0029" class="nav_a">Amazon
+                            Assistant</a>
+                    </li>
+                    <li>
+                        <a href="/gp/help/customer/display.html?nodeId=508510&amp;ref_=footer_gw_m_b_he"
+                            class="nav_a">Help</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- foot panel-2 end -->
+
+        <!-- foot panel for mobiles -->
+
+        <div class="mb-foot-panel">
+            <div class="foot-panel-left">
+                <ul>
+    <li class="nav-li ">
+        <a class="nav-a " href="/?ref_=navm_ftr_home">
+          <span class="nav-ftr-text">
+            Amazon.com
+          </span>
+          <i class="nav-icon nav-sprite"></i>
+        </a>
+      </li>
+      <li class="nav-li ">
+        <a class="nav-a " href="/hz/wishlist/ls/lol?ref_=navm_ftr_wl">
+          <span class="nav-ftr-text">
+            Your Lists
+          </span>
+          <i class="nav-icon nav-sprite"></i>
+        </a>
+      </li>
+      <li class="nav-li ">
+        <a class="nav-a " href="/gcx/Gifts-for-Adults/gfhz/?ref_=navm_ftr_gf">
+          <span class="nav-ftr-text">
+            Find a Gift
+          </span>
+          <i class="nav-icon nav-sprite"></i>
+        </a>
+      </li>
+      <li class="nav-li ">
+        <a class="nav-a " href="/gp/aw/ybh?ref_=navm_ftr_ybh">
+          <span class="nav-ftr-text">
+            Browsing History
+          </span>
+          <i class="nav-icon nav-sprite"></i>
+        </a>
+      </li>
+      <li class="nav-li ">
+        <a class="nav-a " href="https://www.amazon.com/gp/help/customer/display.html?nodeId=201819090&amp;ref_=navm_ftr_return">
+          <span class="nav-ftr-text">
+            Returns
+          </span>
+          <i class="nav-icon nav-sprite"></i>
+        </a>
+      </li>
+      <li class="nav-li aok-offscreen nav-hidden">
+        <a class="nav-a " href="/gp/aw/contact-us/c2c/phone?c2cId=f67f2578-98fb-4abd-a85d-ec8e1918eaca&amp;ie=UTF8" aria-label="Click to call our Disability Customer Support line, or reach us directly at 1-888-283-1678 ">
+          <span class="nav-ftr-text">
+            Disability Customer Support
+          </span>
+          <i class="nav-icon nav-sprite"></i>
+        </a>
+      </li>
+    </ul>
+            </div>
+            <div class="foot-panel-right">
+                <ul id="nav-ftr-links" class="nav-ftr-links-two-column">
+  
+                    <li class="nav-li nav-li-right">
+                      <a class="nav-a " href="/gp/your-account/order-history?ref_=navm_ftr_yo">
+                        <span class="nav-ftr-text">
+                          Your Orders
+                        </span>
+                        <i class="nav-icon nav-sprite"></i>
+                      </a>
+                    </li>
+                    <li class="nav-li nav-li-right">
+                      <a class="nav-a " href="/b?node=13245981011&amp;ref_=navm_ftr_reg_gc">
+                        <span class="nav-ftr-text">
+                          Gift Cards &amp; Registry
+                        </span>
+                        <i class="nav-icon nav-sprite"></i>
+                      </a>
+                    </li>
+                    <li class="nav-li nav-li-right">
+                      <a class="nav-a " href="/gp/aw/ya?ref_=navm_ftr_ya">
+                        <span class="nav-ftr-text">
+                          Your Account
+                        </span>
+                        <i class="nav-icon nav-sprite"></i>
+                      </a>
+                    </li>
+                    <li class="nav-li nav-li-right">
+                      <a class="nav-a " href="https://sell.amazon.com/?ld=AZFSSOA-m__FTSELL-T1&amp;ref_=footer_soa_m">
+                        <span class="nav-ftr-text">
+                          Start Selling with Amazon
+                        </span>
+                        <i class="nav-icon nav-sprite"></i>
+                      </a>
+                    </li>
+                    <li class="nav-li nav-li-right">
+                      <a class="nav-a " href="https://www.amazon.com/your-product-safety-alerts?ref_=navm_ftr_bsx_ypsa">
+                        <span class="nav-ftr-text">
+                          Your Recalls and Product Safety Alerts
+                        </span>
+                        <i class="nav-icon nav-sprite"></i>
+                      </a>
+                    </li>
+                    <li class="nav-li nav-li-right">
+                      <a class="nav-a " href="/gp/help/customer/display.html?ref_=navm_ftr_cu">
+                        <span class="nav-ftr-text">
+                          Customer Service
+                        </span>
+                        <i class="nav-icon nav-sprite"></i>
+                      </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- foot panel-3 start -->
+
+        <div class="foot-panel3 mb-foot-panel3">
+            <div class="logo mb-none">
+                <a href="https://www.amazon.com/"><img src="./images/logo.png" alt=""></a>
+            </div>
+            <div class="nffxn">
+                <div class="lang nhwbfxn">
+                    <div class="iconfx">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <div class="lan-selectorf foot-border" style="margin: 4px;">
+                        <p>English</p>
+                    </div>
+                </div>
+                <div class="dollar nhwbfxn">
+                    <a href="https://www.amazon.com/customer-preferences/edit?ie=UTF8&ref_=footer_cop&preferencesReturnUrl=%2F">
+                        <span class="dllr"> $ USD - U.S. Dollar</span>
+                    </a>
+                </div>
+                <div class="dollar nhwbfxn country-box">
+                        <div class="country-flag"></div>
+                        <span class="cnm">United States</span>
+                </div>
+            </div>
+        </div>
+        <!-- foot panel-3 end -->
+        <div class="cprdev">
+            <marquee behavior="" direction="left to right">This website is made by Soumyajit Koley</marquee>
+        </div>
+<div class="cpr">
+    <p class="cprt">© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+</div>
+    </footer>
+
+    <!-- footer end -->
+
+</body>
+
+</html>

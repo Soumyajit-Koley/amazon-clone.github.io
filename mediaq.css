@@ -1,0 +1,380 @@
+@media (max-width:770px) {
+    .nav-belt {
+        height: 50px;
+        justify-content: space-between;
+    }
+
+    .nav-logo-outer {
+        width: 80px;
+    }
+
+    .nav-logo a img {
+        height: 30px;
+    }
+
+    .nav-location {
+        display: none;
+    }
+
+    .navsearch {
+        display: none;
+    }
+
+    .language {
+        display: none;
+    }
+
+    .nav-signin {
+        display: none;
+    }
+
+    .nav-return {
+        display: none;
+    }
+
+    .cart {
+        margin-right: 1rem;
+        padding-top: .5rem;
+    }
+
+    .cart-text {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .border {
+        height: 45px;
+    }
+
+    .search-input {
+        border: 2px solid transparent;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        padding: 0 1rem 0 .85rem;
+    }
+
+    .main-top {
+        height: 315px;
+        background-image: url('images/main-body-phone/games.jpg');
+        background-size: cover;
+    }
+
+    .main-containt {
+        flex-wrap: wrap;
+    }
+
+    .main-float {
+        display: none;
+    }
+
+    .main-float-mobile {
+        background-color: #34445b;
+        background-image: url('images/main-body-phone/amzon-india.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 83px;
+    }
+
+    .main-cards {
+        background: linear-gradient(#bedade, #d1cbbf);
+    }
+
+    .main-box {
+        height: 180px;
+        width: 135px;
+        margin: 0.5rem;
+        border: 0.05rem solid transparent;
+        border-radius: .25rem;
+        filter: drop-shadow(0 0 0.5rem #424d50);
+    }
+
+    .main-pic {
+        width: 115px;
+        height: 100px;
+    }
+
+    .pic-1 {
+        background-image: url('images/main-box-image/women-health.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .pic-2 {
+        background-image: url('images/main-box-image/tech.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .pic-3 {
+        background-image: url('images/main-box-image/girls-products.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .pic-4 {
+        background-image: url('images/main-box-image/beauty.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .mb-none {
+        display: none;
+    }
+
+    .mb-width {
+        width: auto;
+        height: 48px;
+        padding-left: .15rem;
+    }
+
+    .mb-panel-flex {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .mb-bar {
+        width: 14px;
+        padding-left: 1rem;
+    }
+
+    .mb-foot-panel {
+        padding: 1.5rem;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #232f3e;
+        color: #fff;
+    }
+
+    .mb-foot-panel ul li {
+        list-style: none;
+    }
+
+    .mb-foot-panel ul li a {
+        color: #fff;
+        line-height: 5vh;
+    }
+
+    .options p {
+        font-size: 12.59px;
+    }
+
+    .foot-panel-right {
+        padding: 1rem;
+    }
+
+    .foot-panel-left {
+        padding: 1rem;
+    }
+
+    .mb-foot-panel3 {
+        padding-top: 3rem;
+        height: 120px;
+        background-color: #0d141e;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    marquee {
+        background-color: #0d141e;
+    }
+
+    .cpr {
+        background-color: #0d141e;
+        padding-bottom: 1rem;
+    }
+}
+
+@media (min-width:771px) and (max-width:1007px) {
+
+    /* mobile utility start */
+    .m-flex {
+        display: none;
+    }
+
+    .mb-main-cards {
+        display: none;
+    }
+
+    .mb-width {
+        display: none;
+    }
+
+    .mb-bar {
+        display: none;
+    }
+
+    .foot-panel-left {
+        display: none;
+    }
+
+    .foot-panel-right {
+        display: none;
+    }
+
+    /* mobile utility end */
+
+    /* tablet utility start */
+
+    .tb-none {
+        display: none;
+    }
+
+    .tb-main-float {
+        font-size: 0.7rem;
+    }
+
+    /* tablet utility end */
+
+    .nav-logo {
+        margin: 0rem;
+    }
+
+    .nav-logo img {
+        height: 30px;
+    }
+
+    .add {
+        width: 80px;
+        padding: 0 4px 0 0;
+    }
+
+    .icon {
+        font-size: 0.8rem;
+        margin-right: 0.18rem;
+    }
+
+    .address {
+        font-size: 0.65rem;
+        margin-left: 9px;
+    }
+
+    .country {
+        margin: 0 1rem 0 0;
+        font-size: 0.8rem;
+    }
+
+    .navsearch {
+        width: 365px;
+    }
+
+    .box-top {
+        font-size: 0.65rem;
+    }
+
+    .box-bottom {
+        font-size: 0.75rem;
+        font-weight: 550;
+    }
+
+    .language {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tb-lang-icon {
+        margin: 5px;
+        width: 15px;
+        height: 12px;
+        background-image: url('images/country-flag/Flag-United-States-of-America.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .panel {
+        justify-content: flex-start;
+        padding-left: 1rem;
+    }
+
+    .options {
+        margin-left: 1rem;
+    }
+
+    .main-top {
+        height: 350px;
+        background-image: url('images/main-body-tab/61zAjw4bqPL._SX3000_.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .main-float {
+        width: 100%;
+    }
+
+    #main-container {
+        padding: 0 3.4vw;
+        margin: 0 1rem;
+        background-color: #f5f6f6;
+    }
+
+    .main-cards {
+        background: linear-gradient(#fed2c7, #f7a8be);
+    }
+
+    .main-containt {
+        flex-wrap: wrap;
+    }
+
+    .main-box {
+        margin: 1rem;
+    }
+
+    .nosty {
+        line-height: 4.4vh;
+        margin: 0 .85rem 0 1.5rem;
+    }
+
+    .foot-panel3 {
+        padding: 10vh;
+    }
+
+    .cpr {
+        padding-bottom: 1rem;
+    }
+}
+
+@media (min-width:1008px) {
+
+    /* mobile utility start */
+
+    .m-flex {
+        display: none;
+    }
+
+    .mb-main-cards {
+        display: none;
+    }
+
+    .mb-width {
+        display: none;
+    }
+
+    .mb-bar {
+        display: none;
+    }
+
+
+
+    .foot-panel-left {
+        display: none;
+    }
+
+    .foot-panel-right {
+        display: none;
+    }
+
+    /* mobile utility end */
+
+    .main-top {
+        background-color: #b9dfb6;
+        background-image: url('images/main-body/books.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

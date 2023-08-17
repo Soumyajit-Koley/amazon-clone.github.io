@@ -1,0 +1,135 @@
+/* foot-panel1 start */
+.foot-panel1{
+    background-color: #37475a;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+/* foot-panel1 end*/
+
+/* foot-panel2 start*/
+
+.foot-panel2{
+    padding: 40px 30px;
+    background-color: #232f3e;
+    color: #fff;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    font-size: 15px;
+}
+
+.nosty{
+    line-height: 9vh;
+}
+.nosty p{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.nosty ul li {
+    list-style: none;
+}
+
+.nosty ul li a {
+    display: block;
+    color: #DDD;
+}
+/* foot-panel2 end*/
+
+/* foot-panel3 start*/
+
+.foot-panel3{
+    padding: 20vh 0;
+    height: 68px;
+    border-top: 0.85px solid #3a4553;
+    background-color: #232f3e;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo a img {
+    width: 76px;
+    margin-top: 8px;
+}
+
+.nffxn{
+    width: 439px;
+    height: 35px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.iconfx{
+    font-size: 18px;
+    margin-left: 4px;
+}
+
+.lan-seletorf{
+    margin: 4px;
+}
+
+.lang{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 12px;
+}
+
+.dollar a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.country-flag{
+    margin: 8px 0 0 auto;
+    width: 18px;
+    height: 12px;
+    background-image: url('images/country-flag/Flag-United-States-of-America.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.country-box{
+    display: flex;
+}
+
+.dllr{
+    font-size: 12px;
+    margin: 18px 6px 0 6px;
+}
+
+.cnm{
+    margin: 8px 6px 0 10px;
+    font-size: 12px;
+}
+/* foot-panel3 end*/
+
+.cpr{
+    padding-top: 20vh;
+    border-top: 0.25px solid #3a4553;
+    color: #fff;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+.cprdev{
+    border-top: 0.25px solid #3a4553;
+    color: #fff;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}

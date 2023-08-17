@@ -1,0 +1,51 @@
+.nbheight{
+    height: 50px;
+}
+.border{
+    border: 1.3px solid transparent;
+}
+.border:hover{
+    border: 1.3px solid #ffffff;
+}
+.box-top{
+    font-size: 0.7rem;
+}
+.box-bottom{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.pointer{
+    cursor: pointer;
+}
+.wtdn{
+    color: #fff;
+    text-decoration: none;
+}
+.main-cards-links{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+.cards-heading{
+    margin: 10px;
+    text-decoration: none;
+    color: #0f1111;
+    text-align: center;
+}
+.main-bottom{
+    margin: 10px;
+    text-decoration: none;
+}
+a,a:link,a:visited{
+    color: #007185;
+    text-decoration: none;
+}
+.nosty ul li a:hover{
+    text-decoration: underline;
+}
+.nhwbfxn{
+    width: 114px;
+    height: 33px;
+    border: 0.5px solid #ffffff;
+    border-radius: 5px;
+}
