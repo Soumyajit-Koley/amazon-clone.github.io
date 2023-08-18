@@ -212,7 +212,7 @@ header {
 }
 
 .options {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     width: 1232px;
     display: flex;
     align-items: center;
