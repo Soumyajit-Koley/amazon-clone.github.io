@@ -268,7 +268,7 @@
 
     .mb-foot-panel ul li a {
         color: #fff;
-        line-height: 5vh;
+        line-height: 4.5vh;
     }
 
     .options p {
@@ -299,7 +299,7 @@
 
     .cpr {
         background-color: #0d141e;
-        padding-bottom: 1rem;
+        padding-bottom: 5vh;
     }
 
 
@@ -450,6 +450,11 @@
         padding: 10vh;
     }
 
+    .p4-color{
+        background-color: #232f3e;
+    }
+
+
     .cpr {
         padding-bottom: 1rem;
     }
@@ -501,4 +506,9 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+
+    .p4-color{
+        background-color: #232f3e;
+    }
+
 }
