@@ -1,19 +1,24 @@
 /* foot-panel1 start */
-.foot-panel1{
+.foot-panel1 {
     background-color: #37475a;
     color: #fff;
     height: 50px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 0.85rem;
+}
+
+.foot-panel1-top {
+    padding: 0.05rem;
 }
 
 /* foot-panel1 end*/
 
 /* foot-panel2 start*/
 
-.foot-panel2{
+.foot-panel2 {
     padding: 40px 30px;
     background-color: #232f3e;
     color: #fff;
@@ -23,10 +28,11 @@
     font-size: 15px;
 }
 
-.nosty{
-    line-height: 9vh;
+.nosty {
+    line-height: 5vh;
 }
-.nosty p{
+
+.nosty p {
     font-size: 17px;
     font-weight: 700;
 }
@@ -39,11 +45,12 @@
     display: block;
     color: #DDD;
 }
+
 /* foot-panel2 end*/
 
 /* foot-panel3 start*/
 
-.foot-panel3{
+.foot-panel3 {
     padding: 20vh 0;
     height: 68px;
     border-top: 0.85px solid #3a4553;
@@ -59,7 +66,7 @@
     margin-top: 8px;
 }
 
-.nffxn{
+.nffxn {
     width: 439px;
     height: 35px;
     font-size: 18px;
@@ -68,16 +75,16 @@
     justify-content: space-evenly;
 }
 
-.iconfx{
+.iconfx {
     font-size: 18px;
     margin-left: 4px;
 }
 
-.lan-seletorf{
+.lan-seletorf {
     margin: 4px;
 }
 
-.lang{
+.lang {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -90,7 +97,7 @@
     text-decoration: none;
 }
 
-.country-flag{
+.country-flag {
     margin: 8px 0 0 auto;
     width: 18px;
     height: 12px;
@@ -99,33 +106,90 @@
     background-size: cover;
 }
 
-.country-box{
+.country-box {
     display: flex;
 }
 
-.dllr{
+.dllr {
     font-size: 12px;
     margin: 18px 6px 0 6px;
 }
 
-.cnm{
+.cnm {
     margin: 8px 6px 0 10px;
     font-size: 12px;
 }
+
 /* foot-panel3 end*/
 
-.cpr{
-    padding-top: 20vh;
-    border-top: 0.25px solid #3a4553;
+/* sign in info start */
+
+.sign-in-info {
+    padding: 1rem 0;
+    background-color: #0d141e;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-in-info span {
+    padding-right: 0.5em;
+}
+
+.sign-in-info a {
+    color: #fff;
+}
+
+/* sign in info end */
+
+/* terms and condition start */
+
+.nav-ftr-horiz {
+    padding: 1em 0.5em;
+    background-color: #0d141e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10.5px;
+
+}
+
+.nav-li {
+    margin-right: 2vw;
+    color: #ccc;
+    list-style: none;
+}
+
+.nav-li a {
+    color: #ccc;
+}
+
+.nav-sprite-ccba {
+    background-image: url('images/nav-sprite-global-1x-reorg-privacy._CB587940754_.png');
+    background-position: -136px -380px;
+    display: block;
+    width: 29px;
+    height: 14px;
+    position: relative;
+    top: .17px;
+}
+
+/* terms and condition end */
+
+.cpr {
+    padding-top: 0vh;
+    color: #ccc;
     background-color: #232f3e;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 12px;
+    font-size: 11.5px;
 }
-.cprdev{
+
+.cprdev {
     border-top: 0.25px solid #3a4553;
+    border-bottom: 0.25px solid #3a4553;
     color: #fff;
     background-color: #232f3e;
     display: flex;

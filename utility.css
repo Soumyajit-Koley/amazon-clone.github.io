@@ -49,3 +49,7 @@ a,a:link,a:visited{
     border: 0.5px solid #ffffff;
     border-radius: 5px;
 }
+.nav-li a:hover {
+    color: #ccc;
+    text-decoration: underline;
+}
